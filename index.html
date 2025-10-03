@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="az">
 <head>
-  <title>Mənim İlk Səhifəm</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ülviyə — İlk Saytım</title>
+  <style>
+    :root{--bg:#f6f8fb;--card:#ffffff;--accent:#2563eb;--text:#0f172a}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);display:flex;align-items:center;justify-content:center;min-height:100vh}
+    .card{background:var(--card);padding:28px;border-radius:12px;box-shadow:0 8px 30px rgba(15,23,42,0.06);max-width:760px;text-align:center}
+    h1{margin:0 0 8px;color:var(--accent);font-size:28px}
+    p{margin:0 0 18px;color:var(--text);font-size:18px}
+    a.button{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    footer{margin-top:14px;color:#6b7280;font-size:14px}
+  </style>
 </head>
 <body>
-  <h1>Salam GitHub!</h1>
-  <p>Bu mənim ilk layihəmdir 🚀</p>
+  <div class="card">
+    <h1>Salam! 👋</h1>
+    <p>Bu mənim ilk GitHub Pages layihəmdir — frontend öyrənirəm və ilk addımı burda atıram.</p>
+    <a class="button" href="#" target="_blank" rel="noopener">GitHub Reposuma bax</a>
+    <footer>Bu səhifəni istədiyin vaxt yeniləyə və dizaynını dəyişə bilərsən.</footer>
+  </div>
 </body>
 </html>
